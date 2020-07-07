@@ -69,25 +69,25 @@ class Snake:
                 self.tlist = [st]+self.tlist
 
     def up(self):
-        if music: winsound.PlaySound('C:/Users/sarth/Downloads/beep.wav',winsound.SND_ASYNC)
+        if music: winsound.PlaySound('beep.wav',winsound.SND_ASYNC)
         if self.head.heading() in (0,180) and not self.turned:
             self.head.seth(90)
             self.turned = True
 
     def down(self):
-        if music: winsound.PlaySound('C:/Users/sarth/Downloads/beep.wav',winsound.SND_ASYNC)
+        if music: winsound.PlaySound('beep.wav',winsound.SND_ASYNC)
         if self.head.heading() in (0,180) and not self.turned:
             self.head.seth(270)
             self.turned = True
 
     def right(self):
-        if music: winsound.PlaySound('C:/Users/sarth/Downloads/beep.wav',winsound.SND_ASYNC)
+        if music: winsound.PlaySound('beep.wav',winsound.SND_ASYNC)
         if self.head.heading() in (90,270) and not self.turned:
             self.head.seth(0)
             self.turned = True
 
     def left(self):
-        if music: winsound.PlaySound('C:/Users/sarth/Downloads/beep.wav',winsound.SND_ASYNC)
+        if music: winsound.PlaySound('beep.wav',winsound.SND_ASYNC)
         if self.head.heading() in (90,270) and not self.turned:
             self.head.seth(180)
             self.turned = True
