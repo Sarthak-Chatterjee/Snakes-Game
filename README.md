@@ -1,6 +1,6 @@
 # Snakes-Game
 Classic Snakes Game written in python using **turtle module**.
-Download it on your pc and run the snakes.py file to loose yourself in the childhood nostalgia.
+Download it on your pc and run the snakes.exe file to loose yourself in the childhood nostalgia.
 
 ### FEATURES:
    - The game starts with `enter` key.
